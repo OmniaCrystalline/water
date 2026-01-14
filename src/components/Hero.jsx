@@ -5,10 +5,10 @@ function Hero() {
     <section className="relative bg-blue-900 text-white overflow-hidden min-h-[600px] flex items-center">
       {/* Background with water effect */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-[url(./background.png)]"
+        className="absolute inset-0 bg-cover bg-center bg-[url(/background.png)]"
       ></div>
       <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-r from-indigo-900 via-transparent to-transparent'></div>
-      <div className='absolute bg-[url(./plumber.png)] right-0 bottom-0 w-full md:w-1/2 h-full bg-contain bg-no-repeat bg-bottom' style={{ backgroundPosition: 'right bottom' }}></div>
+      <div className='absolute bg-[url(/plumber.png)] right-0 bottom-0 w-full md:w-1/2 h-full bg-contain bg-no-repeat bg-bottom' style={{ backgroundPosition: 'right bottom' }}></div>
 
 
       <div className="backdrop-blur-sm md:backdrop-blur-none relative max-w-7xl w-full mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-12 z-10">
@@ -25,9 +25,9 @@ function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row mt-8 rounded-lg overflow-hidden mx-auto  animate-fade-in-up delay-300">
             <button
-              className="bg-[url(./request.png)] w-60 h-16 bg-cover bg-center bg-no-repeat transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/50 active:scale-95 cursor-pointer">
+              className="bg-[url(/request.png)] w-60 h-16 bg-cover bg-center bg-no-repeat transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/50 active:scale-95 cursor-pointer">
             </button>
-            <button className="bg-[url(./call.png)] w-60 h-16 bg-cover bg-center bg-no-repeat transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/50 active:scale-95 cursor-pointer">
+            <button className="bg-[url(/call.png)] w-60 h-16 bg-cover bg-center bg-no-repeat transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/50 active:scale-95 cursor-pointer">
             </button>
           </div>
         </div>

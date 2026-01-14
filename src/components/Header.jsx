@@ -8,7 +8,7 @@ function Header() {
     <header className="bg-header-gradient text-white relative z-10">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-3 bg-[url(./logo.png)] w-72 h-16 bg-no-repeat bg-center bg-contain animate-fade-in">
+        <a href="/" className="flex items-center gap-3 bg-[url(/logo.png)] w-72 h-16 bg-no-repeat bg-center bg-contain animate-fade-in">
         </a>
 
         {/* Desktop Navigation */}

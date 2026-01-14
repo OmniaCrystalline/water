@@ -3,19 +3,19 @@ function ServicesBar() {
   const services = [
     {
       title: "Emergency Repairs",
-      image: "./1.png"
+      image: "/1.png"
     },
     {
       title: "Drain Cleaning",
-      image: "./2.png"
+      image: "/2.png"
     },
     {
       title: "Water Heaters",
-      image: "./3.png"
+      image: "/3.png"
     },
     {
       title: "Leak Detection & More",
-      image: "./4.png"
+      image: "/4.png"
     }
   ];
 
@@ -44,7 +44,7 @@ function ServicesBar() {
               {/* Horizontal divider at bottom for desktop */}
               <div className="hidden lg:block absolute bottom-0 left-0 right-0 w-5/6 h-0.5 bg-gradient-to-r from-transparent via-gray-200 to-transparent mx-auto"></div>
               <img
-                src={`./${service.image}`}
+                src={service.image}
                 alt={service.title}
                 className="w-80 h-auto object-cover block mt-auto block p-7 transition-all duration-300 hover:scale-110 cursor-pointer"
               />
